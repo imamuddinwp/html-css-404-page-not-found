@@ -18,14 +18,17 @@
     display: block;
 }
 
-
 @keyframes animate {
     from {
+        left: 0;
+        top:1px;
         background-position: top 25%;
         background-position: right 50%;
 
     }
     to {
+        top: 0;
+        right:1px;
         background-position: bottom 75%;
         background-position: left 100%;
     }
